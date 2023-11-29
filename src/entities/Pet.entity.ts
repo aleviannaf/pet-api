@@ -1,6 +1,5 @@
-import { text } from "express"
 import { Column, Entity, PrimaryGeneratedColumn } from "typeorm"
-import { boolean } from "zod"
+
 
 @Entity('pet')
 export default class Pet{
